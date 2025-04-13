@@ -7,6 +7,10 @@
 *.o
 *.obj
 
+# binary and intermediate folders
+./bin
+./bin-int
+
 # Precompiled Headers
 *.gch
 *.pch
@@ -30,3 +34,6 @@
 *.exe
 *.out
 *.app
+
+# Makefiles
+*Makefile
