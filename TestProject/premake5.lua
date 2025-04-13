@@ -53,10 +53,8 @@ project "TestProject"
 		optimize "on"
 
 	filter "configurations:Distribution"
-		
-		kind "WindowedApp"
 
-		defines { "DISTRIBUTION" }
+		defines { "NDEBUG", "DISTRIBUTION", "_CONSOLE" }
 	
 		architecture "x64"
 		optimize "on"
