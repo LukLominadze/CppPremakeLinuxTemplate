@@ -8,8 +8,8 @@
 *.obj
 
 # binary and intermediate folders
-./bin
-./bin-int
+/bin
+/bin-int
 
 # Precompiled Headers
 *.gch
