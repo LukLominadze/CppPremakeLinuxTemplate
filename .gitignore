@@ -10,6 +10,7 @@
 # binary and intermediate folders
 /bin
 /bin-int
+/.vs
 
 # Precompiled Headers
 *.gch
@@ -37,3 +38,9 @@
 
 # Makefiles
 *Makefile
+
+# Visual Studio files
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
